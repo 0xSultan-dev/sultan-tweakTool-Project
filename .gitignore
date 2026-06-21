@@ -1,0 +1,19 @@
+# === Editor / IDE / local artifacts ===
+.vs/
+.vscode/
+*.user
+
+# === Personal data created by the tool at runtime - NEVER publish ===
+# These contain YOUR machine's registry/network/system settings.
+Backups/
+clean_backups/
+debloat_backup_*.txt
+bcd_backup_*
+
+# === Build / temporary artifacts ===
+*.tmp
+*.bcd
+bcd_restore_*
+*.new.exe
+*.pdb
+*.obj
